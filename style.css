@@ -1,0 +1,297 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 630px) {
+    .container1 .topnav .logo {
+        visibility: hidden;
+    }
+    .container1 .jovanca-vertical {
+        visibility: hidden;
+    }
+    .container1 .photo {
+        visibility: hidden;
+    }
+    .container3 .text .text1 {
+        margin-top: 30px;
+    }
+    .container1 .topnav {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 1%;
+    }
+    .right-container .tile {
+        padding-left: 0px;
+    }
+    .left-container {
+        visibility: hidden;
+    }
+    .container3 .text .text1 { 
+        font-family: Playfair Display;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 940px) {
+    .container3 img {
+        display: none;
+    }
+    .container3 .text .text1 {
+        margin-top: 60px;
+    }
+}
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-image: linear-gradient(to bottom right, #5B373C, #282440);
+}
+
+.container1 {
+    position: relative;
+    margin: 0%;
+    background-image: linear-gradient(to bottom right, #5B373C, #282440);
+
+}
+
+.tdn {
+    text-decoration: none;
+    color: black;
+}
+
+.container1 .topnav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+
+.container1 .topnav .navitem {
+    margin-left: 10px;
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+}
+
+.container1 .topnav a:hover {
+    color: white;
+}
+
+.container1 .topnav .hireme {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container1 .topnav .logo {
+    display: flex;
+    margin-right: auto;
+    color: white;
+    align-items: center;
+}
+
+.container1 .topnav .logo-text {
+    margin-left: 5px;
+}
+
+.container1 .topnav img {
+    margin-left: 50px;
+}
+
+#raehat-lt {
+    margin-left: 30px;
+}
+
+.inl {
+    display: inline-block;
+}
+
+.container1 .hi-text {
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 50px;
+}
+
+.container1 .hi-text2 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 10px;
+}
+
+.container1 .jovanca-vertical {
+    position: absolute;
+    transform: rotate(-90deg);
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 28px;
+    margin-top: 150px;
+}
+
+.container1 .photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.container2 .item {
+    padding: 50px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container3 img {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.container3 .text {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container3 .text .text1 { 
+    font-family: Playfair Display;
+    font-size: 40px;
+}
+
+.container3 .text .text2 {
+    margin-top: 20px;
+    padding-right: 80px;
+    margin-left: 80px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+hr {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container4 {
+    display: flex;
+    padding-top: 97px;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.left-container {
+    padding-top: 58px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+}
+
+.left-container .text1 {
+    font-family: Playfair Display;
+    font-size: 40px;
+}
+
+.left-container .text2 {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 25px;
+}
+
+.left-container .no-of-projects {
+    display: flex;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 50px;
+    flex-shrink: 2;
+}
+
+.lol {
+    padding-right: 50px;
+}
+
+.right-container {
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.right-container .tile {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 25px;
+    width: 60%;
+    margin-top: 10px;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.tile1 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.tile2 {
+    background: rgba(255, 255, 255, 1);
+}
+
+.tile3 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.tile:hover {
+    background-color: black;
+    color: white;
+}
+
+.coltext {
+    margin-left: 20px;
+}
+
+.coltext .text1 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container5 .text1 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.email-me {
+    display: flex;
+    color: white;
+    border-style: solid;
+    padding: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+
+.email-me:hover {
+    border-color: red;
+    color: red;
+}
+
+.email-me img {
+    margin-right: 5px;
+}
